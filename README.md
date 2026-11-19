@@ -1,7 +1,7 @@
 # Software Engineering Lab 4 – Vibe Coding
 ## Hangman Challenge
 
-**Student:** SatyaTeju  
+**Student:** Naga Tejaswini 
 **SRN:** PES2UG24AM095  
 **Section:** 5B  
 **Project:** Hangman – independent implementation

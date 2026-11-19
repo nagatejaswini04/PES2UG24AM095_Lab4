@@ -1,0 +1,23 @@
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+test_correct_guess_reveals_letter (test_game.TestHangmanGame.test_correct_guess_reveals_letter) ... ok
+test_difficulty_validation (test_game.TestHangmanGame.test_difficulty_validation) ... ok
+test_hint_reveals_letter_only_once (test_game.TestHangmanGame.test_hint_reveals_letter_only_once) ... ok
+test_invalid_guess_does_not_change_lives (test_game.TestHangmanGame.test_invalid_guess_does_not_change_lives) ... ok
+test_repeated_wrong_guess_does_not_reduce_life_twice (test_game.TestHangmanGame.test_repeated_wrong_guess_does_not_reduce_life_twice) ... ok
+test_session_statistics_and_streak (test_game.TestHangmanGame.test_session_statistics_and_streak) ... ok
+test_win_when_all_letters_guessed (test_game.TestHangmanGame.test_win_when_all_letters_guessed) ... ok
+test_wrong_guess_reduces_life (test_game.TestHangmanGame.test_wrong_guess_reduces_life) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+OK
